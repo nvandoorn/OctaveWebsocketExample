@@ -20,7 +20,7 @@ function octave_requestWebsocketSessionId() {
     }
   };
   return fetch(HOSTNAME, options)
-    .then(r => Promise.resolve(r.json()))
+    .then(r => r.json())
     .then(
       p =>
         new Promise((resolve, reject) => {
