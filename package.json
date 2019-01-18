@@ -1,0 +1,26 @@
+{
+  "name": "octavewebsocketexample",
+  "version": "1.0.0",
+  "description": "A simple example showing how to subscribe to events that are arriving on an Octave stream. This is a simple proof of concept and isn't meant to be reference code. There is very little error checking in the code.",
+  "main": "hello_octave.js",
+  "scripts": {
+    "start": "node hello_octave.js",
+    "format": "prettier --write \"*.{ts,js,json,css,md}\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpfrey/OctaveWebsocketExample.git"
+  },
+  "author": "David Frey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dpfrey/OctaveWebsocketExample/issues"
+  },
+  "homepage": "https://github.com/dpfrey/OctaveWebsocketExample#readme",
+  "dependencies": {
+    "node-fetch": "^2.3.0",
+    "prettier": "^1.15.3",
+    "ws": "^6.1.2"
+  }
+}
