@@ -47,8 +47,6 @@ octave_requestWebsocketSessionId()
       };
       ws.send(JSON.stringify(subReq));
     });
-    ws.on("message", data => {
-      console.log(data);
-    });
+    ws.on("message", console.log);
   })
-  .catch(e => console.log(e));
+  .catch(console.log);
