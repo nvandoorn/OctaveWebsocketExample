@@ -1,8 +1,8 @@
 FROM node:lts-alpine
 
-RUN yarn add ws
+RUN yarn
 
 WORKDIR /usr/src/app
 COPY . /usr/src/app
 
-CMD ["node", "hello_octave.js"]
+CMD ["yarn", "start"]
